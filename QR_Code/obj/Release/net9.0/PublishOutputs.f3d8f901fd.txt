@@ -1,0 +1,7 @@
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/out/QR_Code
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/out/appsettings.Development.json
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/out/appsettings.json
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/out/QR_Code.dll
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/out/QR_Code.deps.json
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/out/QR_Code.runtimeconfig.json
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/out/QR_Code.pdb

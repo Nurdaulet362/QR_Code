@@ -19,7 +19,6 @@
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/rjsmrazor.dswa.cache.json
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/rjsmcshtml.dswa.cache.json
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/scopedcss/bundle/QR_Code.styles.css
-/Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/compressed/fu13p9a8qw-btxio6xfve.gz
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/compressed/q1juq7qe57-61n19gt1b8.gz
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/compressed/9ndjpfar23-p0fngg7psp.gz
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/compressed/nrif3hvrjz-s0ao4509z6.gz
@@ -33,3 +32,5 @@
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/QR_Code.pdb
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/QR_Code.genruntimeconfig.cache
 /Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/ref/QR_Code.dll
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/QR_Code.sourcelink.json
+/Users/nurdauletkystaubaj/RiderProjects/QR_Code/QR_Code/obj/Release/net9.0/compressed/fu13p9a8qw-b80n8owom1.gz
