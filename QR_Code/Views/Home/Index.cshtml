@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"] = "QR генератор и сканер";
+}
+
+<section class="tool-grid" aria-label="QR инструменты">
+    <article class="tool-panel">
+        <div class="panel-heading">
+            <div>
+                <p class="section-kicker">Ссылка или текст</p>
+                <h2>Сделать QR</h2>
+            </div>
+            <button class="ghost-button" id="clearGenerator" type="button">Очистить</button>
+        </div>
+
+        <label class="field-label" for="qrText">Что зашифровать</label>
+        <textarea id="qrText" rows="6" maxlength="900" placeholder="Например: https://example.com или любой текст"></textarea>
+
+        <div class="controls-row">
+            <label class="select-wrap" for="qrSize">
+                Размер
+                <select id="qrSize">
+                    <option value="220">220 px</option>
+                    <option value="280" selected>280 px</option>
+                    <option value="360">360 px</option>
+                </select>
+            </label>
+            <button class="primary-button" id="generateQr" type="button">Создать QR</button>
+        </div>
+
+        <div class="qr-preview" id="qrPreview" aria-live="polite">
+            <div class="empty-state">QR появится здесь</div>
+        </div>
+
+        <div class="actions-row">
+            <button class="secondary-button" id="downloadQr" type="button" disabled>Скачать PNG</button>
+            <button class="secondary-button" id="copySource" type="button" disabled>Копировать текст</button>
+        </div>
+        <p class="helper-text" id="generatorMessage">Данные обрабатываются только в браузере.</p>
+    </article>
+
+    <article class="tool-panel">
+        <div class="panel-heading">
+            <div>
+                <p class="section-kicker">Картинка с QR</p>
+                <h2>Прочитать QR</h2>
+            </div>
+            <button class="ghost-button" id="clearScanner" type="button">Сбросить</button>
+        </div>
+
+        <label class="upload-box" id="dropZone" for="qrImage">
+            <input id="qrImage" type="file" accept="image/*"/>
+            <span class="upload-title">Выбери файл или перетащи сюда</span>
+            <span class="upload-subtitle">Можно PNG, JPG, WEBP или скриншот</span>
+        </label>
+
+        <canvas id="scanCanvas" hidden></canvas>
+
+        <div class="decode-result" id="decodeResult" aria-live="polite">
+            <p class="result-label">Результат</p>
+            <div class="result-value muted">Пока QR не загружен</div>
+        </div>
+
+        <div class="actions-row">
+            <a class="secondary-button link-button is-disabled" id="openDecoded" href="#" target="_blank" rel="noopener noreferrer">Открыть ссылку</a>
+            <button class="secondary-button" id="copyDecoded" type="button" disabled>Копировать</button>
+        </div>
+        <p class="helper-text" id="scannerMessage">Если QR плохо читается, попробуй более четкое фото без сильного наклона.</p>
+    </article>
+</section>

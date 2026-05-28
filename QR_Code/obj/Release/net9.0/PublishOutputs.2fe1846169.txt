@@ -1,0 +1,7 @@
+/private/tmp/qr_publish_project/QR_Code
+/private/tmp/qr_publish_project/appsettings.Development.json
+/private/tmp/qr_publish_project/appsettings.json
+/private/tmp/qr_publish_project/QR_Code.dll
+/private/tmp/qr_publish_project/QR_Code.deps.json
+/private/tmp/qr_publish_project/QR_Code.runtimeconfig.json
+/private/tmp/qr_publish_project/QR_Code.pdb
